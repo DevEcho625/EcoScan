@@ -16,7 +16,7 @@ with tab1:
     st.subheader("Statistics:")
     col1, col2 = st.columns(2)
     with col1:
-        st.image("image5.png")
+        st.image("image5.png", caption = "Plastic production in extremely high and is on the rise.")
     with col2:
         st.image("image6.png", caption = "Recyling centers aren't able to handle all the palstic they are getting, so they are sent to the ocean." )
 
