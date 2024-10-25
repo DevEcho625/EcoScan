@@ -16,7 +16,7 @@ with tab1:
     st.subheader("Statistics:")
     col1, col2 = st.columns(2)
     with col1:
-        st.image("image5.png", cpation = "The plastic production over the past few years has been extremely large and is on the rise. ")
+        st.image("image5.png", cpation = "The plastic production over the past few years has been extremely large and is on the rise. x")
     with col2:
         st.image("image6.png", caption = "Recyling centers aren't able to handle all the palstic they are getting, so they are sent to the ocean." )
 
@@ -31,9 +31,9 @@ with tab3:
     st.write("Take a scan now:")
     uploaded_file = st.file_uploader("Choose a file", type=["csv", "xlsx", "txt", "pdf", "png"])
 
-# Process the uploaded file
+ #Process the uploaded file
     if uploaded_file is not None:
-    # Display file details
+    #Display file details
         st.write("Filename:", uploaded_file.name)
         st.write("File size:", uploaded_file.size, "bytes")
 
