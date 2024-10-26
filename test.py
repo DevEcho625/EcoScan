@@ -74,16 +74,13 @@ with tab2:
 
 with tab3:
     st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
+    st.write("Our scan requires a photo of the image that you want to check, and then we use \n AI software to see whether the image given is recyclabe or not. This AI software has a database of over \n 10K images. ")
+    st.write("Take a scan now:")
+    with st.container(): #file uploader
+
+        img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
+        analyse = st.button('Analyze')
     
-    uploaded_file = st.file_uploader("Choose a file", type=["csv", "xlsx", "txt", "pdf", "png"])
-
-# Process the uploaded file
-    if uploaded_file is not None:
-    # Display file details
-        st.write("Filename:", uploaded_file.name)
-        st.write("File size:", uploaded_file.size, "bytes")
-
-
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
 
