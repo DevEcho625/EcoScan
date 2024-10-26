@@ -7,9 +7,7 @@ with tab1:
     
     
     st.markdown("<h1 style='text-align: center; color: green;'>Home Page</h1>", unsafe_allow_html=True)
-    col3, col4 = st.columns(2)
-    with col3:   
-        st.markdown(
+    st.markdown(
         """
         <div style='text-align: center;'>
             Every day, the world generates millions of tons of waste, and India alone contributes over 277 million tons annually. 
@@ -18,10 +16,9 @@ with tab1:
         </div>
         """,
         unsafe_allow_html=True)
-    with col4:
-        st.markdown(
+    st.markdown(
         """
-        <div style='text-align: center;'>
+        <div style='text-align: center; margin-top: 20px;'>
             At EcoScan, we are committed to addressing this issue with cutting-edge technology. Using advanced AI models, our platform scans objects to instantly 
             determine if they are recyclable or not, ensuring that waste is sorted correctly at the source. By making recycling easier and more efficient, EcoScan 
             can help reduce the volume of waste entering landfills, conserve natural resources, and lower the overall environmental footprint. 
