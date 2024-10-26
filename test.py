@@ -13,7 +13,7 @@ with tab1:
     <div style='text-align: center;'>
         Every day, the world generates millions of tons of waste, and India alone contributes over 277 million tons annually. 
         Globally, more than 2 billion tons of waste are generated each year, and a significant portion of this ends up in landfills or pollutes our oceans. 
-        Sadly, much of this waste is recyclable, but due to improper sorting and lack of awareness, valuable materials are lost, and the environmental impact worsens.
+        Sadly, much of this waste is recyclable, but due to improper sorting and lack of awareness, valuable materials are lost, and the environmental impact worsens. \n \n
     </div>
     """,
     unsafe_allow_html=True)
