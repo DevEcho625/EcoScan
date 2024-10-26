@@ -25,6 +25,8 @@ with tab1:
         determine if they are recyclable or not, ensuring that waste is sorted correctly at the source. By making recycling easier and more efficient, EcoScan 
         can help reduce the volume of waste entering landfills, conserve natural resources, and lower the overall environmental footprint. 
         Join us in reducing waste, protecting the environment, and building a cleaner future for generations to come.
+
+        
     </div>
     """,
     unsafe_allow_html=True)
@@ -39,8 +41,28 @@ with tab1:
 with tab2:
     st.markdown("<h1 style='text-align: center; color: green;'>About Us</h1>", unsafe_allow_html=True)
 
-    st.write("I am a 15 year old who is currently living in Hyderabad and studying at the International School of Hyderabad. I started this project becuase I was very passionate about waste management when I found out the my home city genereated the most waste per capita in India. Worst of all, there was a huge amounts of trash just outside my community. It lead me to research and start this app where we support more sustainble recyling practices by allowing our scanner to recognize whether or not a household item is recylable. ")
-    st.write("We aim to make sustainable practices more accessible by giving everyone the tools to reduce their environmental footprint. We believe that small actions can lead to big change, and with EcoScan, everyone can play a role in building a cleaner, more sustainable future.")
+    st.markdown(
+    """
+    <div style='text-align: center; color: green; font-size: 18px;'>
+        I am a 15-year-old who is currently living in Hyderabad and studying at the International School of Hyderabad. 
+        I started this project because I was very passionate about waste management when I found out that my home city generated 
+        the most waste per capita in India. Worst of all, there was a huge amount of trash just outside my community. It led me to 
+        research and start this app where we support more sustainable recycling practices by allowing our scanner to recognize 
+        whether or not a household item is recyclable.
+    </div>
+    """,
+    unsafe_allow_html=True)
+
+    st.markdown(
+    """
+    <div style='text-align: center; color: green; font-size: 18px; margin-top: 20px;'>
+        We aim to make sustainable practices more accessible by giving everyone the tools to reduce their environmental footprint. 
+        We believe that small actions can lead to big change, and with EcoScan, everyone can play a role in building a cleaner, 
+        more sustainable future.
+    </div>
+    """,
+    unsafe_allow_html=True)
+
 with tab3:
     st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
     st.write("Our scan requires a photo of the image that you want to check, and then we use \n AI software to see whether the image given is recyclabe or not. This AI software has a database of over \n 10K images. ")
