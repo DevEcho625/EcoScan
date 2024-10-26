@@ -29,6 +29,14 @@ with tab1:
         """,
         unsafe_allow_html=True)
     
+    st.markdown(
+        """
+        < <div style='text-align: center; margin-top: 20px;'>
+        Take a scan now by going to our Scanner tab!
+        </div>
+        """
+    )
+    
     st.subheader("Statistics:")
     col1, col2 = st.columns(2)
     with col1:
@@ -63,8 +71,7 @@ with tab2:
 
 with tab3:
     st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
-    st.write("Our scan requires a photo of the image that you want to check, and then we use \n AI software to see whether the image given is recyclabe or not. This AI software has a database of over \n 10K images. ")
-    st.write("Take a scan now:")
+    
     uploaded_file = st.file_uploader("Choose a file", type=["csv", "xlsx", "txt", "pdf", "png"])
 
 # Process the uploaded file
