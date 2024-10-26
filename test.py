@@ -26,7 +26,7 @@ with tab1:
         can help reduce the volume of waste entering landfills, conserve natural resources, and lower the overall environmental footprint. 
         Join us in reducing waste, protecting the environment, and building a cleaner future for generations to come.
 
-        
+
     </div>
     """,
     unsafe_allow_html=True)
@@ -43,7 +43,7 @@ with tab2:
 
     st.markdown(
     """
-    <div style='text-align: center; color: green; font-size: 18px;'>
+    <div style='text-align: center; color: white; font-size: 18px;'>
         I am a 15-year-old who is currently living in Hyderabad and studying at the International School of Hyderabad. 
         I started this project because I was very passionate about waste management when I found out that my home city generated 
         the most waste per capita in India. Worst of all, there was a huge amount of trash just outside my community. It led me to 
@@ -55,7 +55,7 @@ with tab2:
 
     st.markdown(
     """
-    <div style='text-align: center; color: green; font-size: 18px; margin-top: 20px;'>
+    <div style='text-align: center; color: white; font-size: 18px; margin-top: 20px;'>
         We aim to make sustainable practices more accessible by giving everyone the tools to reduce their environmental footprint. 
         We believe that small actions can lead to big change, and with EcoScan, everyone can play a role in building a cleaner, 
         more sustainable future.
