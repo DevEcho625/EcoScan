@@ -21,7 +21,7 @@ with tab1:
     with col4:
         st.markdown(
         """
-        <div style='text-align: center; margin-top: 20px;'>
+        <div style='text-align: center;'>
             At EcoScan, we are committed to addressing this issue with cutting-edge technology. Using advanced AI models, our platform scans objects to instantly 
             determine if they are recyclable or not, ensuring that waste is sorted correctly at the source. By making recycling easier and more efficient, EcoScan 
             can help reduce the volume of waste entering landfills, conserve natural resources, and lower the overall environmental footprint. 
