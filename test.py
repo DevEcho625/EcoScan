@@ -4,9 +4,10 @@ add_selectbox = st.sidebar.image("EcoScan_Slogan_Image.png")
 
 with tab1:
    
-    col3, col4 = st.columns(2)
+    
     
     st.markdown("<h1 style='text-align: center; color: green;'>Home Page</h1>", unsafe_allow_html=True)
+    col3, col4 = st.columns(2)
     with col3:   
         st.markdown(
         """
