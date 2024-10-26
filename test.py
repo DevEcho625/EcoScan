@@ -33,7 +33,7 @@ with tab1:
 
     st.markdown(
     """
-    <div style='text-align: center; color: white; font-size: 18px; margin-top: 20px;'>
+    <div style='text-align: center; color: white; margin-top: 20px;'>
         Take a scan now by going to our Scanner tab!
     </div>
     """,
