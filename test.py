@@ -29,13 +29,16 @@ with tab1:
         """,
         unsafe_allow_html=True)
     
+    import streamlit as st
+
     st.markdown(
-        """
-        <div style='text-align: center; margin-top: 20px;'>
+    """
+    <div style='text-align: center; color: white; font-size: 18px; margin-top: 20px;'>
         Take a scan now by going to our Scanner tab!
-        </div>
-        """
-    )
+    </div>
+    """,
+    unsafe_allow_html=True)
+
     
     st.subheader("Statistics:")
     col1, col2 = st.columns(2)
