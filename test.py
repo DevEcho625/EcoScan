@@ -94,7 +94,7 @@ with tab4:
    
     q2 = st.expander("Can I scan multiple items at once?")
     with q2:
-        st.write("Currently, the app works best when you scan one item at a time for optimal accuracy.")
+        st.write("Currently, the app works best when you scan one item at a time for the highest accuracy.")
 
 
     q3 = st.expander("Can the app help me reduce waste?")
