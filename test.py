@@ -6,7 +6,7 @@ with tab1:
    
 
     
-    st.markdown("<h1 style='text-align: center; color: white;'>Home Page</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: red;'>Home Page</h1>", unsafe_allow_html=True)
         
     st.write("Every day, the world generates millions of tons of waste, and India alone contributes over 277 million tons annually. Globally, more than 2 billion tons of waste are generated each year, and a significant portion of this ends up in landfills or pollutes our oceans. Sadly, much of this waste is recyclable, but due to improper sorting and lack of awareness, valuable materials are lost, and the environmental impact worsens.")
 
