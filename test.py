@@ -31,7 +31,7 @@ with tab1:
     
     st.markdown(
         """
-        < <div style='text-align: center; margin-top: 20px;'>
+        <div style='text-align: center; margin-top: 20px;'>
         Take a scan now by going to our Scanner tab!
         </div>
         """
