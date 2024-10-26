@@ -21,12 +21,12 @@ with tab1:
         st.image("image6.png", caption = "Recyling centers aren't able to handle all the palstic they are getting, so they are sent to the ocean." )
 
 with tab2:
-    st.markdown("<h1 style='text-align: center; color: white;'>About Us</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: green;'>About Us</h1>", unsafe_allow_html=True)
 
     st.write("I am a 15 year old who is currently living in Hyderabad and studying at the International School of Hyderabad. I started this project becuase I was very passionate about waste management when I found out the my home city genereated the most waste per capita in India. Worst of all, there was a huge amounts of trash just outside my community. It lead me to research and start this app where we support more sustainble recyling practices by allowing our scanner to recognize whether or not a household item is recylable. ")
     st.write("We aim to make sustainable practices more accessible by giving everyone the tools to reduce their environmental footprint. We believe that small actions can lead to big change, and with EcoScan, everyone can play a role in building a cleaner, more sustainable future.")
 with tab3:
-    st.markdown("<h1 style='text-align: center; color: white;'>Scanner</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
     st.write("Our scan requires a photo of the image that you want to check, and then we use \n AI software to see whether the image given is recyclabe or not. This AI software has a database of over \n 10K images. ")
     st.write("Take a scan now:")
     uploaded_file = st.file_uploader("Choose a file", type=["csv", "xlsx", "txt", "pdf", "png"])
@@ -39,7 +39,7 @@ with tab3:
 
 
 with tab4:
-    st.markdown("<h1 style='text-align: center; color: white;'>FAQs</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
 
     question1 = st.expander("What does this app do?")
     with question1:
