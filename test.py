@@ -8,16 +8,26 @@ with tab1:
     
     st.markdown("<h1 style='text-align: center; color: green;'>Home Page</h1>", unsafe_allow_html=True)
         
-
     st.markdown(
-    "<h3 style='text-align: center; color: green;'>Every day, the world generates millions of tons of waste, and India alone contributes over 277 million tons annually...</h3>",
+    """
+    <div style='text-align: center;'>
+        Every day, the world generates millions of tons of waste, and India alone contributes over 277 million tons annually. 
+        Globally, more than 2 billion tons of waste are generated each year, and a significant portion of this ends up in landfills or pollutes our oceans. 
+        Sadly, much of this waste is recyclable, but due to improper sorting and lack of awareness, valuable materials are lost, and the environmental impact worsens.
+    </div>
+    """,
     unsafe_allow_html=True)
 
     st.markdown(
-    "<h3 style='text-align: center; color: green;'>At EcoScan, we are committed to addressing this issue with cutting-edge technology...</h3>",
-    unsafe_allow_html=True
-)
-   
+    """
+    <div style='text-align: center;'>
+        At EcoScan, we are committed to addressing this issue with cutting-edge technology. Using advanced AI models, our platform scans objects to instantly 
+        determine if they are recyclable or not, ensuring that waste is sorted correctly at the source. By making recycling easier and more efficient, EcoScan 
+        can help reduce the volume of waste entering landfills, conserve natural resources, and lower the overall environmental footprint. 
+        Join us in reducing waste, protecting the environment, and building a cleaner future for generations to come.
+    </div>
+    """,
+    unsafe_allow_html=True)
     
     st.subheader("Statistics:")
     col1, col2 = st.columns(2)
