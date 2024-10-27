@@ -1,6 +1,14 @@
 import streamlit as st
+from ultralytics import YOLO
+from PIL import Image
 tab1, tab2, tab3, tab4 = st.tabs(["Intro", "About Us","Scan", "FAQS"])
 add_selectbox = st.sidebar.image("EcoScan_Slogan_Image.png")
+@st.cache_resource
+def models():
+
+
+    mod = YOLO('best.pt')    
+    return mod
 
 with tab1:
    
@@ -29,7 +37,6 @@ with tab1:
         """,
         unsafe_allow_html=True)
     
-    import streamlit as st
 
     st.markdown(
     """
@@ -76,10 +83,49 @@ with tab3:
     st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
     st.write("Our scan requires a photo of the image that you want to check, and then we use \n AI software to see whether the image given is recyclabe or not. This AI software has a database of over \n 10K images. ")
     st.write("Take a scan now:")
-    with st.container(): #file uploader
+    
+
+with st.container():
+
 
         img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
+
+
         analyse = st.button('Analyze')
+
+
+
+
+if analyse:
+
+
+        if img is not None:
+
+
+            img = Image.open(img)
+
+
+            st.markdown('Image Visualization')
+
+
+            st.image(img)
+
+
+            model = models()
+
+
+            res = model.predict(img)
+
+
+            label = res[0].probs.top5
+
+
+            conf = res[0].probs.top5conf
+
+
+            conf = conf.tolist()
+            st.write('Detected: ' + str(res[0].names[label[0]].title()))        
+            st.write('Confidence level: ' + str(conf[0]))
     
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
