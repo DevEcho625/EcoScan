@@ -4,10 +4,12 @@ from PIL import Image
 tab1, tab2, tab3, tab4 = st.tabs(["Intro", "About Us","Scan", "FAQS"])
 add_selectbox = st.sidebar.image("EcoScan_Slogan_Image.png")
 @st.cache_resource
+
+
 def models():
 
 
-    mod = YOLO('runs\classify\train\weights\best.pt')    
+    mod = YOLO('wieghts\ best.pt')    
     return mod
 
 with tab1:
