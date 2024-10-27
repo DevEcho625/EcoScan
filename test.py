@@ -7,7 +7,7 @@ add_selectbox = st.sidebar.image("EcoScan_Slogan_Image.png")
 def models():
 
 
-    mod = YOLO('C:\Users\anujx\OneDrive\Desktop\Athena Academy\runs\classify\train\weights\best.pt')    
+    mod = YOLO('best.pt')    
     return mod
 
 with tab1:
