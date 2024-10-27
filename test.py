@@ -97,35 +97,33 @@ with st.container():
 
 
 if analyse:
+    if img is not None:
 
 
-        if img is not None:
+        img = Image.open(img)
 
 
-            img = Image.open(img)
+        st.markdown('Image Visualization')
+            
+
+        st.image(img)
 
 
-            st.markdown('Image Visualization')
+        model = models()
 
 
-            st.image(img)
+        res = model.predict(img)
 
 
-            model = models()
+        label = res[0].probs.top5
 
 
-            res = model.predict(img)
+        conf = res[0].probs.top5conf
 
 
-            label = res[0].probs.top5
-
-
-            conf = res[0].probs.top5conf
-
-
-            conf = conf.tolist()
-            st.write('Detected: ' + str(res[0].names[label[0]].title()))        
-            st.write('Confidence level: ' + str(conf[0]))
+        conf = conf.tolist()
+        st.write('Detected: ' + str(res[0].names[label[0]].title()))        
+        st.write('Confidence level: ' + str(conf[0]))
     
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
