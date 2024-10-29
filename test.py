@@ -125,7 +125,9 @@ if analyse:
 
         conf = conf.tolist()
         st.write('Detected: ' + str(res[0].names[label[0]].title()))        
-        st.write('Confidence level: ' + str(int(conf[0]*100) + "%"))
+        #st.write('Confidence level: ' + str(int(conf[0]*100) + "%"))
+        st.write('Confidence level: ' + str(int(conf[0] * 100)) + "%")
+
     
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
