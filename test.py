@@ -87,7 +87,7 @@ with tab3:
     st.write("Take a scan now:")
     
 
-with st.container():
+    with st.container():
 
 
         img = st.file_uploader('Upload your image', type=['jpg', 'png', 'jpeg'])
@@ -98,35 +98,35 @@ with st.container():
 
 
 
-if analyse:
-    if img is not None:
+    if analyse:
+        if img is not None:
 
 
-        img = Image.open(img)
+            img = Image.open(img)
 
 
-        st.markdown('Image Visualization')
-            
+            st.markdown('Image Visualization')
+                
 
-        st.image(img)
-
-
-        model = models()
+            st.image(img)
 
 
-        res = model.predict(img)
+            model = models()
 
 
-        label = res[0].probs.top5
+            res = model.predict(img)
 
 
-        conf = res[0].probs.top5conf
+            label = res[0].probs.top5
 
 
-        conf = conf.tolist()
-        st.write('Detected: ' + str(res[0].names[label[0]].title()))        
-        #st.write('Confidence level: ' + str(int(conf[0]*100) + "%"))
-        st.write('Confidence level: ' + str(int(conf[0] * 100)) + "%")
+            conf = res[0].probs.top5conf
+
+
+            conf = conf.tolist()
+            st.write('Detected: ' + str(res[0].names[label[0]].title()))        
+            #st.write('Confidence level: ' + str(int(conf[0]*100) + "%"))
+            st.write('Confidence level: ' + str(int(conf[0] * 100)) + "%")
 
     
 with tab4:
