@@ -127,6 +127,8 @@ with tab3:
             st.write('Detected: ' + str(res[0].names[label[0]].title()))        
             #st.write('Confidence level: ' + str(int(conf[0]*100) + "%"))
             st.write('Confidence level: ' + str(int(conf[0] * 100)) + "%")
+    
+    st.link_button("View Disposal Places", "https://docs.google.com/spreadsheets/d/1wKDFh_wxPoZ63M9gJNmieAprUMBADP4-2XYra1Ji3Ck/edit?gid=0#gid=0")
 
     
 with tab4:
