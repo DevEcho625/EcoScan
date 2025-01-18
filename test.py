@@ -81,6 +81,8 @@ with tab2:
     """,
     unsafe_allow_html=True)
 
+    st.image("Photo.jpg")
+
 with tab3:
     st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
     st.write("Our scan requires a photo of the image that you want to check, and then we use \n AI software to see whether the image given is recyclabe or not. This AI software has a database of over \n 10K images. ")
