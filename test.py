@@ -124,9 +124,13 @@ with tab3:
 
 
             conf = conf.tolist()
-            st.write('Detected: ' + str(res[0].names[label[0]].title()))        
-            #st.write('Confidence level: ' + str(int(conf[0]*100) + "%"))
+            st.write('Detected: ' + str(res[0].names[label[0]].title()))
+
             st.write('Confidence level: ' + str(int(conf[0] * 100)) + "%")
+            if int(conf[0] * 100) > 65:
+                st.write("This is most likely recyclable")
+            else:
+                st.write("We are unsure if this is recyclable or not, please try agian by uploading another picture.")
     
     st.link_button("View Disposal Places", "https://docs.google.com/spreadsheets/d/1wKDFh_wxPoZ63M9gJNmieAprUMBADP4-2XYra1Ji3Ck/edit?gid=0#gid=0")
 
