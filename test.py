@@ -81,7 +81,7 @@ with tab2:
     """,
     unsafe_allow_html=True)
 
-    st.image("Photo.jpg", caption = "Photo of me.")
+    st.image("Photo.jpeg", caption = "Photo of me.")
 
 with tab3:
     st.markdown("<h1 style='text-align: center; color: green;'>Scanner</h1>", unsafe_allow_html=True)
