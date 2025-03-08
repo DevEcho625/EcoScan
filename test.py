@@ -135,7 +135,7 @@ with tab3:
                 st.write("We are unsure if this is recyclable or not, please try agian by uploading another picture.")
     
     #st.link_button("View Disposal Places", "https://docs.google.com/spreadsheets/d/1wKDFh_wxPoZ63M9gJNmieAprUMBADP4-2XYra1Ji3Ck/edit?gid=0#gid=0")
-    option = st.selectbox("To find suitable disposal centers, please enter the city that you stay in:", ("Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow", "Kanpur", "Nagpur", "Indore", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana"))
+    option = st.selectbox("To find suitable disposal centers, please enter the city that you stay in:", ("City","Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow", "Kanpur", "Nagpur", "Indore", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana"))
     if option == "Mumbai":
         st.write("Eco Recycling Ltd.\nAddress: Unit No. 422, 4th Floor, The Summit Business Bay, Andheri East, Mumbai, Maharashtra 400093\nPhone: +91 22 4005 2951\nTypes of Waste Collected: Electronic waste (e-waste), including discarded electronic devices and components.")
 
