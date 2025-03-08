@@ -142,6 +142,62 @@ with tab3:
         st.markdown(""" - Name: Greenobin Recycling Pvt. Ltd.\n - Address: B-50, Mayapuri Industrial Area Phase I, New Delhi, Delhi 110064\n - Phone: +91 11 2811 6222\n - Types of Waste Collected: Paper and cardboard waste, confidential document destruction, and recycling services.\n """)
     if option == "Bengaluru":
         st.markdown(""" -  Name: Saahas Zero Waste\n - Address: #17, 35th Main, 6th Cross, BTM Layout 2nd Stage, Bengaluru, Karnataka 560068\n - Phone: +91 80 4168 9889\n - Types of Waste Collected: Municipal solid waste, dry waste (plastic, paper, metal), wet waste (organic/biodegradable), and e-waste.\n\n""")
+
+    if option == "Hyderabad":
+        st.markdown(""" - Name: Recykal\n - Address: Hyderabad, Telangana\n - Phone: Information not available\n - Types of Waste Collected: Plastic waste, paper waste, electronic waste, and metal waste. """)
+
+    if option == "Ahmedabad":
+        st.markdown(""" - Name: Ecoline\n - Address: Plot No. 47, GIDC Estate, Phase-1, Vatva, Ahmedabad, Gujarat 382445\n - Phone: +91 79 2583 3835\n - Types of Waste Collected: Industrial hazardous waste, chemical waste, and contaminated soil.""")
+
+    if option == "Chennai":
+        st.markdown("""- Name: Greater Chennai Corporation - Solid Waste Management\n - Address: Ripon Building, Chennai, Tamil Nadu 600003\n - Phone: +91 44 2530 1421\n - Types of Waste Collected: Municipal solid waste, including biodegradable (organic) and non-biodegradable (plastic, paper, metal) waste.""")
+
+    if option == "Kolkata":
+        st.markdown("""- Name: Kolkata E-waste Management\n - Address: 14B, Camac Street, 3rd Floor, Kolkata, West Bengal 700017\n - Phone: +91 33 2282 3744\n - Types of Waste Collected: Electronic waste (e-waste), including computers, mobile phones, and household appliances.""")
+
+    if option == "Surat":
+        st.markdown("""- Name: Surat Green Precast Pvt. Ltd.\n - Address: Plot No. 168, GIDC Estate, Pandesara, Surat, Gujarat 394221\n - Phone: +91 261 289 0770\n - Types of Waste Collected: Construction and demolition waste, concrete debris, and industrial waste.""")
+
+    if option == "Pune":
+        st.markdown(""" - Name: SWaCH Pune Seva Sahakari Sanstha\n - Address: Office No. 5, 2nd Floor, Gopal House, Katraj, Pune, Maharashtra 411046\n - Phone: +91 20 2432 8080\n - Types of Waste Collected: Municipal solid waste, dry waste (plastic, paper, metal), wet waste (organic/biodegradable), and e-waste.""")
+
+    if option == "Jaipur":
+        st.markdown(""" - Name: Jaipur Biofertilizers\n - Address: G-1/446, RIICO Industrial Area, Sitapura, Jaipur, Rajasthan 302022\n - Phone: +91 141 277 1844\n - Types of Waste Collected: Organic waste, agricultural waste, and biodegradable waste for composting.""")
+
+    if option == "Lucknow":
+        st.markdown("""- Name: Eco Wise Waste Management Pvt. Ltd.\n - Address: C-123, Talkatora Industrial Area, Lucknow, Uttar Pradesh 226011\n - Phone: +91 522 266 1234\n - Types of Waste Collected: Municipal solid waste, dry waste (plastic, paper, metal), and wet waste (organic/biodegradable).""")
+    
+    if option == "Kanpur":
+        st.markdown(""" - Name: Kanpur Waste Management Pvt. Ltd.\n - Address: D-1, UPSIDC Industrial Area, Rooma, Kanpur, Uttar Pradesh 209402\n - Phone: +91 512 393 7000\n - Types of Waste Collected: Industrial hazardous waste, biomedical waste, and chemical waste.""")
+    
+    if option == "Nagpur":
+        st.markdown("""- Name: Hanjer Biotech Energies Pvt. Ltd.\n - Address: Survey No. 37, Village - Bhandewadi, Kamptee Road, Nagpur, Maharashtra 440026\n - Phone: +91 712 264 0666\n - Types of Waste Collected: Municipal solid waste, organic waste, and recyclable materials.""")
+
+    if option == "Indore":
+        st.markdown("""- Name: Aasra Waste Management Pvt. Ltd.\n - Address: Plot No. 25, Scheme No. 78, Part II, Vijay Nagar, Indore, Madhya Pradesh 452010\n - Phone: +91 731 255 5525\n - Types of Waste Collected: Municipal solid waste, dry waste (plastic, paper, metal), and wet waste (organic/biodegradable).""")
+
+    if option == "Bhopal":
+        st.markdown("""- Name: Bhopal Municipal Solid Waste Management Pvt. Ltd.\n - Address: Near Adampur Chhawni, Bhanpur, Bhopal, Madhya Pradesh 462037\n - Phone: +91 755 273 0900\n - Types of Waste Collected: Municipal solid waste, including biodegradable and non-biodegradable waste.""")
+
+    if option == "Visakhapatnam":
+        st.markdown("""- Name: Green Waves Environmental Solutions\n - Address: Plot No. 19, APIIC Industrial Park, Gambheeram, Anandapuram, Visakhapatnam, Andhra Pradesh 531163\n - Phone: +91 891 286 6444\n - Types of Waste Collected: Electronic waste (e-waste), plastic waste, and metal waste.""")
+
+    if option == "Patna":
+        st.markdown("""- Name: Patna Municipal Corporation - Solid Waste Management\n - Address: New Market Station Road, Patna, Bihar 800001\n - Phone: +91 612 221 9504\n - Types of Waste Collected: Municipal solid waste, biodegradable waste, and recyclable materials.""")
+
+    if option == "Vadodara":
+        st.markdown("""- Name: Enviro Infrastructure Company Ltd.\n - Address: Plot No. 612, GIDC Estate, Waghodia, Vadodara, Gujarat 391760\n - Phone: +91 2668 262 200\n - Types of Waste Collected: Hazardous waste, industrial waste, and biomedical waste.""")
+
+    if option == "Ghaziabad":
+        st.markdown("""- Name: Ghaziabad Nagar Nigam - Solid Waste Management\n - Address: Navyug Market, Ghaziabad, Uttar Pradesh 201001\n - Phone: +91 120 279 1418\n - Types of Waste Collected: Municipal solid waste, dry waste (plastic, paper, metal), and wet waste (organic/biodegradable).""")
+
+    if option == "Ludhiana":
+        st.markdown("""Name: Ludhiana Municipal Corporation - Waste Management\n - Address: Zone D, Near Guru Nanak Bhawan, Ludhiana, Punjab 141001\n - Phone: +91 161 274 0101\n - Types of Waste Collected: Municipal solid waste, plastic waste, and e-waste.""")
+
+    if option == "Tirupati":
+        st.markdown("""- Name: Tirupati Municipal Corporation - Waste Management\n - Address: Municipal Office, Tirupati, Andhra Pradesh 517501\n - Phone: +91 877 222 5134\n - Types of Waste Collected: Municipal solid waste, organic waste, and plastic recycling.""")
+
+
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
 
