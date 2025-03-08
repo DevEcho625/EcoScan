@@ -138,7 +138,8 @@ with tab3:
     option = st.selectbox("To find suitable disposal centers, please enter the city that you stay in:", ("City","Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow", "Kanpur", "Nagpur", "Indore", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana"))
     if option == "Mumbai":
         st.markdown(""" - Eco Recycling Ltd. \n - Address: Unit No. 422, 4th Floor, The Summit Business Bay, Andheri East, Mumbai, Maharashtra 400093 \n - Phone: +91 22 4005 2951 \n  - Types of Waste Collected: Electronic waste (e-waste), including discarded electronic devices and components.""")
-
+    if option == "Delhi":
+        st.markdown(""" \n - Name: Greenobin Recycling Pvt. Ltd.\n - Address: B-50, Mayapuri Industrial Area Phase I, New Delhi, Delhi 110064\n - Phone: +91 11 2811 6222\n - Types of Waste Collected: Paper and cardboard waste, confidential document destruction, and recycling services.\n """)
     
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
