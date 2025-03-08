@@ -139,8 +139,9 @@ with tab3:
     if option == "Mumbai":
         st.markdown(""" - Eco Recycling Ltd. \n - Address: Unit No. 422, 4th Floor, The Summit Business Bay, Andheri East, Mumbai, Maharashtra 400093 \n - Phone: +91 22 4005 2951 \n  - Types of Waste Collected: Electronic waste (e-waste), including discarded electronic devices and components.""")
     if option == "Delhi":
-        st.markdown(""" \n - Name: Greenobin Recycling Pvt. Ltd.\n - Address: B-50, Mayapuri Industrial Area Phase I, New Delhi, Delhi 110064\n - Phone: +91 11 2811 6222\n - Types of Waste Collected: Paper and cardboard waste, confidential document destruction, and recycling services.\n """)
-    
+        st.markdown(""" - Name: Greenobin Recycling Pvt. Ltd.\n - Address: B-50, Mayapuri Industrial Area Phase I, New Delhi, Delhi 110064\n - Phone: +91 11 2811 6222\n - Types of Waste Collected: Paper and cardboard waste, confidential document destruction, and recycling services.\n """)
+    if option == "Bengaluru":
+        st.markdown(""" -  Name: Saahas Zero Waste\n - Address: #17, 35th Main, 6th Cross, BTM Layout 2nd Stage, Bengaluru, Karnataka 560068\n - Phone: +91 80 4168 9889\n - Types of Waste Collected: Municipal solid waste, dry waste (plastic, paper, metal), wet waste (organic/biodegradable), and e-waste.\n\n""")
 with tab4:
     st.markdown("<h1 style='text-align: center; color: green;'>FAQs</h1>", unsafe_allow_html=True)
 
