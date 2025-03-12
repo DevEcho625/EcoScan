@@ -127,12 +127,16 @@ with tab3:
 
             conf = conf.tolist()
             st.write('Detected: ' + str(res[0].names[label[0]].title()))
-
+            item = str(res[0].names[label[0]].title())
             st.write('Confidence level: ' + str(int(conf[0] * 100)) + "%")
-            if int(conf[0] * 100) > 65:
-                st.write("This is most likely recyclable")
-            else:
-                st.write("We are unsure if this is recyclable or not, please try agian by uploading another picture.")
+
+            if item == "eggshells" or "food_waste":
+                st.write("This is most likely food waste! Please put this inot a compost bin so that it can be disposed of properly")
+
+            #if int(conf[0] * 100) > 65:
+                #st.write("This is most likely recyclable")
+            #else:
+                #st.write("We are unsure if this is recyclable or not, please try agian by uploading another picture.")
     
     #st.link_button("View Disposal Places", "https://docs.google.com/spreadsheets/d/1wKDFh_wxPoZ63M9gJNmieAprUMBADP4-2XYra1Ji3Ck/edit?gid=0#gid=0")
     option = st.selectbox("To find suitable disposal centers, please enter the city that you stay in:", ("City","Mumbai", "Delhi", "Bengaluru", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow", "Kanpur", "Nagpur", "Indore", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana"))
